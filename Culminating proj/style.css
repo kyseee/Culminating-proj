@@ -1,0 +1,68 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .navbar {
+    background: #004080;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #00aaff;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
